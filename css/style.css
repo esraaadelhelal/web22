@@ -1,0 +1,1004 @@
+*body{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+
+}
+.parent{
+    position: relative;
+    width: 80%;
+    height: 600px;
+    margin-left: 10%;
+     
+} 
+.image{
+    height: 600px;
+
+}
+
+.header{
+    position: absolute;
+    display: inline-block;
+    
+    width: 100%;
+    height: 60px;
+    position: relative;
+    
+    
+}
+.lih::before{
+    content: "";
+    position: absolute;
+    width: 41px;
+    height: 2px;
+    background-color: brown;
+    margin-top: 20px;
+    visibility: hidden;
+    margin-left: 15px;
+    transition: 1s;
+}
+.olm:hover ::before{
+    visibility: visible;
+    transform: scaleX(2);
+}
+.lih::after{
+    content: "";
+    position: absolute;
+    width: 41px;
+    height: 3px;
+    background-color: brown;
+    margin-top: -5px;
+    margin-left: -55px;
+    visibility: hidden;
+    transition: 1s;
+}
+.olm:hover ::after{
+    visibility: visible;
+    transform: scaleX(2);
+}
+.lih1::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 26px;
+    background-color: brown;
+    margin-left: 15px;
+    margin-top: 18px;
+    visibility: hidden;
+    transition: 1s;
+}
+.lih1:hover ::before{
+    visibility: visible;
+   
+}
+.lih1::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 26px;
+    background-color: brown;
+    margin-left: -1px;
+    margin-top: 18px;
+    visibility: hidden;
+    transition: 1s;
+
+}
+.lih1:hover ::after{
+    visibility: visible;
+    
+}
+.lih1:hover ::before{
+    visibility: visible;
+}
+.lihh::before{
+    content: "";
+    position: absolute;
+    width: 41px;
+    height: 2px;
+    background-color: brown;
+    margin-top: 20px;
+    margin-left: 15px;
+    visibility: hidden;
+    transition: 1s;
+
+}
+.olmk:hover ::before{
+    visibility: visible;
+    transform: scaleX(2);
+}
+
+.lihh::after{
+    content: "";
+    position: absolute;
+    width: 41px;
+    height: 3px;
+    background-color: brown;
+    margin-top: -5px;
+    margin-left: -55px;
+    visibility: hidden;
+    transition: 1s;
+
+}
+.olmk:hover ::after{
+    visibility: visible;
+    transform: scaleX(2);
+}
+.lih11::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 26px;
+    background-color: brown;
+    margin-left: 15px;
+    margin-top: 18px;
+    visibility: hidden;
+    transition: 1s;
+}
+.lih11:hover ::before{
+    visibility: visible;
+
+}
+.lih11::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 26px;
+    background-color: brown;
+    margin-left: 3px;
+    margin-top: 18px;
+    visibility: hidden;
+    transition: 1s;
+}
+.lih11:hover ::after{
+    visibility: visible;
+
+}
+
+.lihhh::before{
+    content: "";
+    position: absolute;
+    width: 48px;
+    height: 2px;
+    background-color: brown;
+    margin-top: 20px;
+    margin-left: 20px;
+    visibility: hidden;
+    transition: 1s;
+}
+.omlk:hover ::before{
+    visibility: visible;
+    transform: scaleX(2);
+}
+.lihhh::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: brown;
+    margin-top: -5px;
+    margin-left: -70px;
+    transition: 1s;
+    visibility: hidden;
+}
+.omlk:hover ::after{
+    visibility: visible;
+    transform: scaleX(2);
+}
+.lih111::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 26px;
+    background-color: brown;
+    margin-left: 13px;
+    margin-top: 18px;
+    transition: 1s;
+    visibility: hidden;
+}
+.lih111:hover ::before{
+    visibility: visible;
+}
+.lih111::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 26px;
+    background-color: brown;
+    margin-left: 3px;
+    margin-top: 18px;
+    transition: 1s;
+    visibility: hidden;
+
+}
+.lih111:hover ::after{
+    visibility: visible;
+}
+
+
+.lihhhh::before{
+    content: "";
+    position: absolute;
+    width: 53px;
+    height: 2px;
+    background-color: brown;
+    margin-top: 20px;
+    visibility: hidden;
+    transition: 1s;
+    margin-left: 22px;
+}
+.mko:hover ::before{
+    visibility: visible;
+    transform: scaleX(2);
+
+}
+.lihhhh::after{
+    content: "";
+    position: absolute;
+    width: 54px;
+    height: 3px;
+    background-color: brown;
+    margin-top: -5px;
+    margin-left: -75px;
+    visibility: hidden;
+    transition: 1s;
+    /* margin-left: 22px; */
+}
+.mko:hover ::after{
+    visibility: visible;
+    transform: scaleX(2);
+
+}
+.lih1111::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 26px;
+    background-color: brown;
+    margin-left: 16px;
+    margin-top: 18px;
+    visibility: hidden;
+    transition: 1s;
+}
+
+.lih1111:hover ::before{
+    visibility: visible;
+
+}
+
+.lih1111::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 26px;
+    background-color: brown;
+    margin-left: 3px;
+    margin-top: 18px;
+    visibility: hidden;
+    transition: 1s;
+
+}
+.lih1111:hover ::after{
+    visibility: visible;
+
+}
+
+
+
+
+
+.lihhhhh::before{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    background-color: brown;
+    margin-top: 20px;
+    visibility: hidden;
+    transition: 1s;
+    margin-left: 19px;
+}
+.plm:hover ::before{
+visibility: visible;
+transform: scaleX(2);
+}
+.lihhhhh::after{
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: brown;
+    margin-top: -5px;
+    margin-left: -70px;
+    visibility: hidden;
+    transition: 1s;
+}
+.plm:hover ::after{
+    visibility: visible;
+    transform: scaleX(2);
+    }
+.lih11111::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 26px;
+    background-color: brown;
+    margin-left: 14px;
+    margin-top: 18px;
+    visibility: hidden;
+}
+.lih11111:hover ::before{
+    visibility: visible;
+
+}
+
+.lih11111::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 24px;
+    background-color: brown;
+    margin-left: 2px;
+    margin-top: 19px;
+    visibility: hidden;
+
+}
+.lih11111:hover ::after{
+    visibility: visible;
+
+}
+
+.lihhhhhh::before{
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 2px;
+    background-color: brown;
+    margin-top: 20px;
+    visibility: hidden;
+    margin-left: 9px;
+    transition: 1s;
+}
+.zx:hover ::before{
+    visibility: visible;
+    transform: scaleX(2);
+
+}
+.lihhhhhh::after{
+    content: "";
+    position: absolute;
+    width: 26px;
+    height: 3px;
+    background-color: brown;
+    margin-top: -5px;
+    margin-left: -35px;
+    visibility: hidden;
+    /* margin-left: 8px; */
+    transition: 1s;
+}
+.zx:hover ::after{
+    visibility: visible;
+    transform: scaleX(2);
+
+}
+.lih111111::before{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 26px;
+    background-color: brown;
+    margin-left: 14px;
+    margin-top: 18px;
+    visibility: hidden;
+    transition: 1s;
+}
+.lih111111:hover ::before{
+    visibility: visible;
+
+}
+.lih111111::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 26px;
+    background-color: brown;
+    margin-left: 3px;
+    margin-top: 18px;
+    visibility: hidden;
+    transition: 1s;
+
+}
+.lih111111:hover ::after{
+    visibility: visible;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;  
+
+}
+.aside{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -60px;
+    font-size: 35px;
+    
+}
+.sec{
+    width: 80%;
+   
+}
+.chairs{
+    position: relative;
+}
+.line{
+    width: 130px;
+    height: 3px;
+    background-color: black;
+    margin-left: 670px;
+    margin-top: -40px;
+    /* padding-bottom: 30px; */
+    margin-bottom: 60px;
+    transition: 1s;
+}
+.line:hover{
+    transform: scaleX(2);
+}
+.chair1{
+    position: absolute;
+    width: 20%;
+    margin-left: 170px;
+    transition: 1s;
+}
+.chair2{
+    position: absolute;
+    width: 20%;
+    margin-left: 770px;
+    transition: 1s;
+
+}
+.chair3{
+    position: absolute;
+    margin-left: 1070px;
+    transition: 1s;
+}
+.chair4{
+    position: absolute;
+    margin-left: 470px;
+    transition: 1s;
+
+}
+.icon{
+    color: darkred;
+    position: absolute;
+    font-size: 30px;
+    display:none;
+}
+.chair1:hover .icon{
+    display: block;
+}
+.chair2:hover .icon{
+    display: block;
+}
+.chair3:hover .icon{
+    display: block;
+}
+.chair4:hover .icon{
+    display: block;
+}
+.penel{
+    width: 80%;
+    height: 500px;
+    margin-top: 450px;
+    position: relative;
+
+}
+
+
+.parg{
+    margin-left: 170px;
+    background-color: beige;
+    width: 600px;
+    height: 300px;
+  
+}
+.image1{
+    width: 250px;
+    height: 300px;
+    background-image: url(../images/cms-banner-1.jpg);
+    background-size:cover ;
+    position: absolute;
+    margin-left: 1090px;
+    margin-top: -300px;
+    transition: 1s;
+    
+
+} 
+.image1:hover{
+    transform: scale(1.2,1.2);
+}
+.image2{
+    width: 250px;
+    height: 300px;
+    background-image: url(../images/cms-banner-2.jpg);
+    background-size:cover ;
+    margin-left: 800px;
+    margin-top: -300px;
+    position: absolute;
+    transition: 1s;
+
+}
+
+
+    .image2:hover{
+        transform: scale(1.2,1.2);
+    }
+
+
+.po{
+    overflow: hidden;
+    margin-left: 350px;
+}
+.p1 , .p2, .p3{
+    float: left;
+    width: 60px;
+     height: 2px; 
+     background: black; 
+
+}
+.p2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
+.end{
+   overflow: auto;
+   height:1100px;
+   margin-top: -100px;
+    
+}
+.end1 , .front1 , .back1{
+    width: 350px;
+    height: 400px;
+    background-color: aqua;
+
+}
+.end1{
+    position: relative;
+    transition: all 1s;
+    transform-style: preserve-3d;
+    margin-left: 180px;
+   
+}
+.tex{
+    position: absolute;
+    margin-top: 405px;
+}
+.front1 , .back1{
+    position: absolute;
+}  
+.front1{
+    float: left;
+    z-index: 1;
+    background-image: url(../images/chair1.jpg);
+    background-size: cover;
+    backface-visibility: hidden;
+
+}
+.back1{
+    transform: rotateY(180deg);
+     background-image: url(../images/chair2.jpg);
+    background-size: cover; 
+    z-index: -1;
+
+}
+.end1:hover{
+    transform: rotateY(180deg);
+}
+
+.overlay1
+{
+    font-size: 40px;
+    color: brown;
+    margin-left: 50px;
+}
+.overlay1 a{
+    color: brown;
+    text-align: center;
+    margin-left: 25px; 
+}
+.overlay1 a i{
+    line-height: 270px;
+}
+
+
+
+.end2 , .front2 , .back2{
+    width: 350px;
+    height: 400px;
+    background-color: aqua;
+
+}
+.end2{
+    position: relative;
+    transition: all 1s;
+    transform-style: preserve-3d;
+    margin-left: 600px;
+    margin-top: -400px;
+}
+.tex2{
+    margin-left: 600px;
+}
+.front2 , .back2{
+    position: absolute;
+}  
+.front2{
+    float: left;
+    z-index: 1;
+    background-image: url(../images/chair2.jpg);
+    background-size: cover;
+    backface-visibility: hidden;
+
+}
+.back2{
+    transform: rotateY(180deg);
+     background-image: url(../images/chair1.jpg);
+    background-size: cover; 
+    z-index: -1;
+
+}
+.end2:hover{
+    transform: rotateY(180deg);
+}
+
+.overlay2
+{
+    font-size: 40px;
+    color: brown;
+    margin-left: 50px;
+}
+.overlay2 a{
+    color: brown;
+    text-align: center;
+    margin-left: 25px; 
+}
+.overlay2 a i{
+    line-height: 270px;
+  
+
+}
+
+
+
+
+.end3 , .front3 , .back3{
+    width: 350px;
+    height: 400px;
+    background-color: aqua;
+
+}
+.end3{
+    position: relative;
+    transition: all 1s;
+    transform-style: preserve-3d;
+    margin-left: 1000px;
+    margin-top: -395px;
+}
+.front3 , .back3{
+    position: absolute;
+}  
+.front3{
+    float: left;
+    z-index: 1;
+    background-image: url(../images/chair3.jpg);
+    background-size: cover;
+    backface-visibility: hidden;
+
+}
+.back3{
+    transform: rotateY(180deg);
+     background-image: url(../images/chair4.jpg);
+    background-size: cover; 
+    z-index: -1;
+
+}
+.end3:hover{
+    transform: rotateY(180deg);
+}
+
+.overlay3
+{
+    font-size: 40px;
+    color: brown;
+    margin-left: 50px;
+}
+.overlay3 a{
+    color: brown;
+    text-align: center;
+    margin-left: 25px; 
+}
+.overlay3 a i{
+    line-height: 300px;
+}
+
+
+.end4 , .front4 , .back4{
+    width: 350px;
+    height: 400px;
+    background-color: aqua;
+
+}
+.end4{
+    position: relative;
+    transition: all 1s;
+    transform-style: preserve-3d;
+    margin-left: 180px;
+    margin-top: 100px;
+}
+.front4 , .back4{
+    position: absolute;
+}  
+.front4{
+    float: left;
+    z-index: 1;
+    background-image: url(../images/chair4.jpg);
+    background-size: cover;
+    backface-visibility: hidden;
+
+}
+.back4{
+    transform: rotateY(180deg);
+     background-image: url(../images/chair5.jpg);
+    background-size: cover; 
+    z-index: -1;
+
+}
+.end4:hover{
+    transform: rotateY(180deg);
+}
+
+.overlay4
+{
+    font-size: 40px;
+    color: brown;
+    margin-left: 50px;
+}
+.overlay4 a{
+    color: brown;
+    text-align: center;
+    margin-left: 25px; 
+}
+.overlay4 a i{
+    line-height: 270px;
+}
+
+
+
+
+.end5 , .front5 , .back5{
+    width: 350px;
+    height: 400px;
+    background-color: aqua;
+
+}
+.end5{
+    position: relative;
+    transition: all 1s;
+    transform-style: preserve-3d;
+    margin-left: 600px;
+    margin-top: -400px;
+}
+.front5 , .back5{
+    position: absolute;
+}  
+.front5{
+    float: left;
+    z-index: 1;
+    background-image: url(../images/chair5.jpg);
+    background-size: cover;
+    backface-visibility: hidden;
+
+}
+.back5{
+    transform: rotateY(180deg);
+     background-image: url(../images/chair1.jpg);
+    background-size: cover; 
+    z-index: -1;
+
+}
+.end5:hover{
+    transform: rotateY(180deg);
+}
+
+.overlay5
+{
+    font-size: 40px;
+    color: brown;
+    margin-left: 50px;
+}
+.overlay5 a{
+    color: brown;
+    text-align: center;
+    margin-left: 25px; 
+}
+.overlay5 a i{
+    line-height: 270px;
+  
+
+}
+
+
+.end6 , .front6 , .back6{
+    width: 350px;
+    height: 400px;
+    background-color: aqua;
+
+}
+.end6{
+    position: relative;
+    transition: all 1s;
+    transform-style: preserve-3d;
+    margin-left: 1000px;
+    margin-top: -600px;
+}
+.front6 , .back6{
+    position: absolute;
+}  
+.front6{
+    float: left;
+    z-index: 1;
+    background-image: url(../images/chair6.jpg);
+    background-size: cover;
+    backface-visibility: hidden;
+
+}
+.back6{
+    transform: rotateY(180deg);
+     background-image: url(../images/chair4.jpg);
+    background-size: cover; 
+    z-index: -1;
+
+}
+.end6:hover{
+    transform: rotateY(180deg);
+}
+
+.overlay6
+{
+    font-size: 40px;
+    color: brown;
+    margin-left: 50px;
+}
+.overlay6 a{
+    color: brown;
+    text-align: center;
+    margin-left: 25px; 
+}
+.overlay6 a i{
+    line-height: 300px;
+}
+hr{
+    margin-top: 130px;
+    height: 4px;
+    background-color: brown;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;  padding: 10px;
+    
+}
+
+
+
+.allitems{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+   
+
+}
+
+
+.item {
+    height: 50px;
+    background-image: url(../images/service-icon\ \(1\).png);
+    background-repeat: no-repeat;
+    transition: all 0.3s ease;
+    border: 2px solid brown;
+    border-radius: 50px;
+}
+
+.item1 {
+background-position: center 5px;
+}
+
+.item1:hover {
+    background-position: center -89px;
+   
+}
+
+.item2 {
+    background-position: center -180px;
+}
+
+.item2:hover {
+    background-position: center -273px;
+}
+
+.item3 {
+    background-position: center -364px;
+}
+
+.item3:hover {
+    background-position: center -457px;
+}
+.item4{
+    background-position: center  -550px;
+}
+.item4:hover{
+    background-position:center -643px;
+}
+.item5{
+    background-position:center -736px;
+}
+.item5:hover{
+    background-position: center -828px;
+}
+
+
+
+
+
+
+
+
